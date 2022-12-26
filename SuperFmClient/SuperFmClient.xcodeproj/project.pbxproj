@@ -16,6 +16,17 @@
 		C516B5DF2959C41100FF3DD4 /* SuperFmClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C516B5DE2959C41100FF3DD4 /* SuperFmClientTests.m */; };
 		C516B5E92959C41100FF3DD4 /* SuperFmClientUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C516B5E82959C41100FF3DD4 /* SuperFmClientUITests.m */; };
 		C516B5EB2959C41100FF3DD4 /* SuperFmClientUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C516B5EA2959C41100FF3DD4 /* SuperFmClientUITestsLaunchTests.m */; };
+		C516B6132959DA8600FF3DD4 /* SuperFmSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C516B6122959DA8600FF3DD4 /* SuperFmSDK.framework */; };
+		C5453C542959DE9A001B50CA /* AMapLocationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5453C512959DE99001B50CA /* AMapLocationKit.framework */; };
+		C5453C562959DE9A001B50CA /* MAMapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5453C522959DE99001B50CA /* MAMapKit.framework */; };
+		C5453C582959DE9A001B50CA /* AMapFoundationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5453C532959DE9A001B50CA /* AMapFoundationKit.framework */; };
+		C5453C5B2959DF4D001B50CA /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5453C5A2959DF4D001B50CA /* CoreTelephony.framework */; };
+		C5453C5D2959DF5E001B50CA /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5453C5C2959DF5E001B50CA /* ExternalAccessory.framework */; };
+		C5453C5F2959DF65001B50CA /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5453C5E2959DF64001B50CA /* GLKit.framework */; platformFilter = ios; };
+		C5453C612959DF70001B50CA /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5453C602959DF70001B50CA /* Security.framework */; };
+		C5453C632959DF7B001B50CA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5453C622959DF7B001B50CA /* SystemConfiguration.framework */; };
+		C5453C662959E0B2001B50CA /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C5453C652959DF90001B50CA /* libz.tbd */; };
+		C5453C672959E0C3001B50CA /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C5453C642959DF86001B50CA /* libc++.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +62,17 @@
 		C516B5E42959C41100FF3DD4 /* SuperFmClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperFmClientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C516B5E82959C41100FF3DD4 /* SuperFmClientUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperFmClientUITests.m; sourceTree = "<group>"; };
 		C516B5EA2959C41100FF3DD4 /* SuperFmClientUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperFmClientUITestsLaunchTests.m; sourceTree = "<group>"; };
+		C516B6122959DA8600FF3DD4 /* SuperFmSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SuperFmSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5453C512959DE99001B50CA /* AMapLocationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AMapLocationKit.framework; path = SuperFmClient/Frameworks/AMapLocationKit.framework; sourceTree = "<group>"; };
+		C5453C522959DE99001B50CA /* MAMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MAMapKit.framework; path = SuperFmClient/Frameworks/MAMapKit.framework; sourceTree = "<group>"; };
+		C5453C532959DE9A001B50CA /* AMapFoundationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AMapFoundationKit.framework; path = SuperFmClient/Frameworks/AMapFoundationKit.framework; sourceTree = "<group>"; };
+		C5453C5A2959DF4D001B50CA /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		C5453C5C2959DF5E001B50CA /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		C5453C5E2959DF64001B50CA /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		C5453C602959DF70001B50CA /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		C5453C622959DF7B001B50CA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C5453C642959DF86001B50CA /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		C5453C652959DF90001B50CA /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +80,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5453C5D2959DF5E001B50CA /* ExternalAccessory.framework in Frameworks */,
+				C5453C672959E0C3001B50CA /* libc++.tbd in Frameworks */,
+				C5453C632959DF7B001B50CA /* SystemConfiguration.framework in Frameworks */,
+				C5453C562959DE9A001B50CA /* MAMapKit.framework in Frameworks */,
+				C5453C582959DE9A001B50CA /* AMapFoundationKit.framework in Frameworks */,
+				C5453C5B2959DF4D001B50CA /* CoreTelephony.framework in Frameworks */,
+				C5453C5F2959DF65001B50CA /* GLKit.framework in Frameworks */,
+				C516B6132959DA8600FF3DD4 /* SuperFmSDK.framework in Frameworks */,
+				C5453C612959DF70001B50CA /* Security.framework in Frameworks */,
+				C5453C542959DE9A001B50CA /* AMapLocationKit.framework in Frameworks */,
+				C5453C662959E0B2001B50CA /* libz.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +118,7 @@
 				C516B5DD2959C41100FF3DD4 /* SuperFmClientTests */,
 				C516B5E72959C41100FF3DD4 /* SuperFmClientUITests */,
 				C516B5C02959C41000FF3DD4 /* Products */,
+				C516B6112959DA8600FF3DD4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -129,6 +163,24 @@
 				C516B5EA2959C41100FF3DD4 /* SuperFmClientUITestsLaunchTests.m */,
 			);
 			path = SuperFmClientUITests;
+			sourceTree = "<group>";
+		};
+		C516B6112959DA8600FF3DD4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5453C652959DF90001B50CA /* libz.tbd */,
+				C5453C642959DF86001B50CA /* libc++.tbd */,
+				C5453C622959DF7B001B50CA /* SystemConfiguration.framework */,
+				C5453C602959DF70001B50CA /* Security.framework */,
+				C5453C5E2959DF64001B50CA /* GLKit.framework */,
+				C5453C5C2959DF5E001B50CA /* ExternalAccessory.framework */,
+				C5453C5A2959DF4D001B50CA /* CoreTelephony.framework */,
+				C5453C532959DE9A001B50CA /* AMapFoundationKit.framework */,
+				C5453C512959DE99001B50CA /* AMapLocationKit.framework */,
+				C5453C522959DE99001B50CA /* MAMapKit.framework */,
+				C516B6122959DA8600FF3DD4 /* SuperFmSDK.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -437,6 +489,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DBJ6RC8ZN6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SuperFmClient/Frameworks",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SuperFmClient/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -466,6 +522,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DBJ6RC8ZN6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SuperFmClient/Frameworks",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SuperFmClient/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
