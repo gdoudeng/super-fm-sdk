@@ -16,7 +16,22 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.navigationItem.title = @"ViewController";
+
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeSystem];
+    button.frame = CGRectMake(100, 300, 200, 38);
+    button.backgroundColor = [UIColor lightGrayColor];
+    [button setTitle:@"点我一下"
+            forState:UIControlStateNormal];
+    [button    addTarget:self
+                  action:@selector(onButtonClick)
+        forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button];
 }
 
+- (void)onButtonClick {
+    NSLog(@"onButtonClick");
+//    [self.navigationController pushViewController:[FmSDKVC new] animated:YES];
+}
 
 @end
