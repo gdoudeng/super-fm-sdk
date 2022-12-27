@@ -31,6 +31,7 @@
 		C5CAA876295A87330074669F /* BackgroundLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CAA867295A87330074669F /* BackgroundLocationViewController.m */; };
 		C5CAA885295A895D0074669F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CAA883295A895D0074669F /* MainViewController.m */; };
 		C5CAA886295A895D0074669F /* MainViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C5CAA884295A895D0074669F /* MainViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5CAA893295AA7680074669F /* MonitoringGeoFenceRegionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5CAA85A295A87330074669F /* MonitoringGeoFenceRegionViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +86,7 @@
 		C5CAA867295A87330074669F /* BackgroundLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundLocationViewController.m; sourceTree = "<group>"; };
 		C5CAA883295A895D0074669F /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		C5CAA884295A895D0074669F /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		C5CAA88F295AA5930074669F /* SuperFm.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperFm.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				C516B5A72959C2E900FF3DD4 /* SuperFmSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5CAA88C295AA5930074669F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,6 +130,7 @@
 			children = (
 				C516B59C2959C2E900FF3DD4 /* SuperFmSDK.framework */,
 				C516B5A62959C2E900FF3DD4 /* SuperFmSDKTests.xctest */,
+				C5CAA88F295AA5930074669F /* SuperFm.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -313,6 +323,23 @@
 			productReference = C516B5A62959C2E900FF3DD4 /* SuperFmSDKTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		C5CAA88E295AA5930074669F /* SuperFm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5CAA890295AA5930074669F /* Build configuration list for PBXNativeTarget "SuperFm" */;
+			buildPhases = (
+				C5CAA88B295AA5930074669F /* Sources */,
+				C5CAA88C295AA5930074669F /* Frameworks */,
+				C5CAA88D295AA5930074669F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuperFm;
+			productName = SuperFm;
+			productReference = C5CAA88F295AA5930074669F /* SuperFm.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -326,6 +353,9 @@
 						CreatedOnToolsVersion = 14.0.1;
 					};
 					C516B5A52959C2E900FF3DD4 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					C5CAA88E295AA5930074669F = {
 						CreatedOnToolsVersion = 14.0.1;
 					};
 				};
@@ -345,6 +375,7 @@
 			targets = (
 				C516B59B2959C2E900FF3DD4 /* SuperFmSDK */,
 				C516B5A52959C2E900FF3DD4 /* SuperFmSDKTests */,
+				C5CAA88E295AA5930074669F /* SuperFm */,
 			);
 		};
 /* End PBXProject section */
@@ -362,6 +393,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5CAA88D295AA5930074669F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5CAA893295AA7680074669F /* MonitoringGeoFenceRegionViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,6 +429,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				C516B5AC2959C2E900FF3DD4 /* SuperFmSDKTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5CAA88B295AA5930074669F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -621,6 +667,52 @@
 			};
 			name = Release;
 		};
+		C5CAA891295AA5930074669F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DBJ6RC8ZN6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPrincipalClass = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rdwl.super.client.SuperFm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		C5CAA892295AA5930074669F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DBJ6RC8ZN6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPrincipalClass = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rdwl.super.client.SuperFm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -647,6 +739,15 @@
 			buildConfigurations = (
 				C516B5B42959C2E900FF3DD4 /* Debug */,
 				C516B5B52959C2E900FF3DD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5CAA890295AA5930074669F /* Build configuration list for PBXNativeTarget "SuperFm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5CAA891295AA5930074669F /* Debug */,
+				C5CAA892295AA5930074669F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

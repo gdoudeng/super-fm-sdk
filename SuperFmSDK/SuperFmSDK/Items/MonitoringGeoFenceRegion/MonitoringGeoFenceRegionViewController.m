@@ -25,6 +25,13 @@
 
 @implementation MonitoringGeoFenceRegionViewController
 
+// 调用视图控制器的Xib
+-(instancetype)init {
+    NSBundle * bundle = [NSBundle bundleWithPath:[[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:@"SuperFm.bundle"]];
+    self = [super initWithNibName:@"MonitoringGeoFenceRegionViewController" bundle:bundle];
+    return self;
+}
+
 - (void)dealloc
 {
     [self doClear];

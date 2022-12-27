@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>SuperFm.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>SuperFmSDK.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -18,6 +23,11 @@
 			<true/>
 		</dict>
 		<key>C516B5A52959C2E900FF3DD4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C5CAA88E295AA5930074669F</key>
 		<dict>
 			<key>primary</key>
 			<true/>

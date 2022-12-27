@@ -28,6 +28,7 @@
 		C5CAA87C295A87A20074669F /* AMapFoundationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5CAA878295A87A10074669F /* AMapFoundationKit.framework */; };
 		C5CAA87E295A87A20074669F /* MAMapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5CAA879295A87A10074669F /* MAMapKit.framework */; };
 		C5CAA88A295A92F60074669F /* AMap.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C5CAA889295A92F60074669F /* AMap.bundle */; };
+		C5CAA896295ACAEF0074669F /* SuperFm.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C5CAA895295ACAEF0074669F /* SuperFm.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		C5CAA878295A87A10074669F /* AMapFoundationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AMapFoundationKit.framework; path = SuperFmClient/Frameworks/AMapFoundationKit.framework; sourceTree = "<group>"; };
 		C5CAA879295A87A10074669F /* MAMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MAMapKit.framework; path = SuperFmClient/Frameworks/MAMapKit.framework; sourceTree = "<group>"; };
 		C5CAA889295A92F60074669F /* AMap.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = AMap.bundle; path = SuperFmClient/Frameworks/MAMapKit.framework/AMap.bundle; sourceTree = "<group>"; };
+		C5CAA895295ACAEF0074669F /* SuperFm.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = SuperFm.bundle; path = SuperFmClient/Frameworks/SuperFm.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 		C516B5B62959C41000FF3DD4 = {
 			isa = PBXGroup;
 			children = (
+				C5CAA895295ACAEF0074669F /* SuperFm.bundle */,
 				C5CAA889295A92F60074669F /* AMap.bundle */,
 				C516B5C12959C41000FF3DD4 /* SuperFmClient */,
 				C516B5DD2959C41100FF3DD4 /* SuperFmClientTests */,
@@ -292,6 +295,7 @@
 				C516B5D22959C41100FF3DD4 /* LaunchScreen.storyboard in Resources */,
 				C516B5CF2959C41100FF3DD4 /* Assets.xcassets in Resources */,
 				C5CAA88A295A92F60074669F /* AMap.bundle in Resources */,
+				C5CAA896295ACAEF0074669F /* SuperFm.bundle in Resources */,
 				C516B5CD2959C41000FF3DD4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
