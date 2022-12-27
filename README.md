@@ -84,7 +84,7 @@
 
 2. 完成上述步骤之后，在项目里默认生成的.h 文件中，把上个步骤中 public 下的.h 文件都用 #import 引入，不然编译后生成的.framework 在引用的时候会有警告
 
-![l0MOBP](https://picture-transmission.iplus-studio.top/uPic/l0MOBP.jpg)
+![wxx87f](https://picture-transmission.iplus-studio.top/uPic/wxx87f.png)
 
 ## `framework`中依赖第三方`sdk`
 
@@ -177,6 +177,8 @@
 
 - 还没验证的注意的地方
 
+> https://www.jianshu.com/p/55676b12b687
+
 1. 删除bundle里的执行文件：找到工程中的xxx.Bundle，右键单击后 选择 "显示包内容"，找到里面黑色的可执行文件xxx，删除掉  否者上传商店会报错 ERROR ITMS-90166 ERROR ITMS-90171
 
 2. 找到framework与bundle里面的info.plist文件 ，删除掉Executable file 字段，否者上传商店会报错 ERROR ITMS-90166 ERROR ITMS-90171
@@ -226,8 +228,20 @@ NSDictionary *plistDic = [NSDictionary dictionaryWithContentsOfFile:filePath];
 
 底部那个就是xib渲染的
 
+# 关于`PCH`
+
+高德地图官方`demo`没用`PCH`, 但是如果你要打包的项目用到了, 那么需要重新修改`.pch` 文件路径，搜索`prefix header` 修改路径：例如`$(SRCROOT)/$(PROJECT_NAME)/SuperFmSDKHeader.pch`
+
 # 代码
 
 [官方高德地图 sdk demo](https://lbs.amap.com/api/ios-location-sdk/download)
 
 [本项目代码](https://gitee.com/gdoudeng/super-fm-sdk)
+
+我没上传高德的sdk, 需要自己去下回来, 然后拷贝两份, 分别放到这两个路径
+
+`SuperFmClient/SuperFmClient/Frameworks/`
+
+`SuperFmSDK/SuperFmSDK/Frameworks/`
+
+![ewaQkY](https://picture-transmission.iplus-studio.top/uPic/ewaQkY.png)

@@ -31,7 +31,6 @@
 }
 
 - (void)onButtonClick {
-    NSLog(@"onButtonClick");
     [self.navigationController pushViewController:[MainViewController new] animated:YES];
 }
 
