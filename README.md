@@ -236,7 +236,7 @@ NSDictionary *plistDic = [NSDictionary dictionaryWithContentsOfFile:filePath];
 
 [官方高德地图 sdk demo](https://lbs.amap.com/api/ios-location-sdk/download)
 
-[本项目代码](https://gitee.com/gdoudeng/super-fm-sdk)
+[本项目代码](https://github.com/gdoudeng/super-fm-sdk)
 
 我没上传高德的sdk, 需要自己去下回来, 然后拷贝两份, 分别放到这两个路径
 
