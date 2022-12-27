@@ -8,7 +8,7 @@
 
 # 预览
 
-![ezgif.com-gif-maker](https://picture-transmission.iplus-studio.top/uPic/ezgif.com-gif-maker.gif)
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/34932391/209638399-a31d50ee-53d8-4928-bd39-1b040ec3a92f.gif)
 
 # 创建两个空项目
 
