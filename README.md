@@ -8,7 +8,7 @@
 
 # 预览
 
-![bb320fa0-08a7-47f0-a94b-e2376bb96101](https://picture-transmission.iplus-studio.top/uPic/bb320fa0-08a7-47f0-a94b-e2376bb96101.gif)
+![ezgif.com-gif-maker](https://picture-transmission.iplus-studio.top/uPic/ezgif.com-gif-maker.gif)
 
 # 创建两个空项目
 
