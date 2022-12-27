@@ -11,9 +11,26 @@
 		C516B5A72959C2E900FF3DD4 /* SuperFmSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C516B59C2959C2E900FF3DD4 /* SuperFmSDK.framework */; };
 		C516B5AC2959C2E900FF3DD4 /* SuperFmSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C516B5AB2959C2E900FF3DD4 /* SuperFmSDKTests.m */; };
 		C516B5AD2959C2E900FF3DD4 /* SuperFmSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = C516B59F2959C2E900FF3DD4 /* SuperFmSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C516B5FC2959D50000FF3DD4 /* APIKey.h in Headers */ = {isa = PBXBuildFile; fileRef = C516B5FB2959D50000FF3DD4 /* APIKey.h */; };
+		C516B5FC2959D50000FF3DD4 /* APIKey.h in Headers */ = {isa = PBXBuildFile; fileRef = C516B5FB2959D50000FF3DD4 /* APIKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C516B6002959D51100FF3DD4 /* AMapPrivacyUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = C516B5FE2959D51100FF3DD4 /* AMapPrivacyUtility.m */; };
-		C516B6012959D51100FF3DD4 /* AMapPrivacyUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = C516B5FF2959D51100FF3DD4 /* AMapPrivacyUtility.h */; };
+		C516B6012959D51100FF3DD4 /* AMapPrivacyUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = C516B5FF2959D51100FF3DD4 /* AMapPrivacyUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5CAA868295A87330074669F /* HeadinglLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CAA853295A87330074669F /* HeadinglLocationViewController.m */; };
+		C5CAA869295A87330074669F /* HeadinglLocationViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C5CAA854295A87330074669F /* HeadinglLocationViewController.h */; };
+		C5CAA86A295A87330074669F /* SingleLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CAA856295A87330074669F /* SingleLocationViewController.m */; };
+		C5CAA86B295A87330074669F /* SingleLocationViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C5CAA857295A87330074669F /* SingleLocationViewController.h */; };
+		C5CAA86C295A87330074669F /* MonitoringGeoFenceRegionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CAA859295A87330074669F /* MonitoringGeoFenceRegionViewController.m */; };
+		C5CAA86D295A87330074669F /* MonitoringGeoFenceRegionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5CAA85A295A87330074669F /* MonitoringGeoFenceRegionViewController.xib */; };
+		C5CAA86E295A87330074669F /* MonitoringGeoFenceRegionViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C5CAA85B295A87330074669F /* MonitoringGeoFenceRegionViewController.h */; };
+		C5CAA86F295A87330074669F /* MonitoringRegionViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C5CAA85D295A87330074669F /* MonitoringRegionViewController.h */; };
+		C5CAA870295A87330074669F /* MonitoringRegionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CAA85E295A87330074669F /* MonitoringRegionViewController.m */; };
+		C5CAA871295A87330074669F /* SingleLocaitonAloneViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C5CAA860295A87330074669F /* SingleLocaitonAloneViewController.h */; };
+		C5CAA872295A87330074669F /* SingleLocaitonAloneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CAA861295A87330074669F /* SingleLocaitonAloneViewController.m */; };
+		C5CAA873295A87330074669F /* SerialLocationViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C5CAA863295A87330074669F /* SerialLocationViewController.h */; };
+		C5CAA874295A87330074669F /* SerialLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CAA864295A87330074669F /* SerialLocationViewController.m */; };
+		C5CAA875295A87330074669F /* BackgroundLocationViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C5CAA866295A87330074669F /* BackgroundLocationViewController.h */; };
+		C5CAA876295A87330074669F /* BackgroundLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CAA867295A87330074669F /* BackgroundLocationViewController.m */; };
+		C5CAA885295A895D0074669F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CAA883295A895D0074669F /* MainViewController.m */; };
+		C5CAA886295A895D0074669F /* MainViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C5CAA884295A895D0074669F /* MainViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +68,23 @@
 		C5453C482959DE7F001B50CA /* MAMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MAMapKit.framework; path = SuperFmSDK/Frameworks/MAMapKit.framework; sourceTree = "<group>"; };
 		C5453C492959DE7F001B50CA /* AMapFoundationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AMapFoundationKit.framework; path = SuperFmSDK/Frameworks/AMapFoundationKit.framework; sourceTree = "<group>"; };
 		C5453C4A2959DE7F001B50CA /* AMapLocationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AMapLocationKit.framework; path = SuperFmSDK/Frameworks/AMapLocationKit.framework; sourceTree = "<group>"; };
+		C5CAA853295A87330074669F /* HeadinglLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeadinglLocationViewController.m; sourceTree = "<group>"; };
+		C5CAA854295A87330074669F /* HeadinglLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeadinglLocationViewController.h; sourceTree = "<group>"; };
+		C5CAA856295A87330074669F /* SingleLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleLocationViewController.m; sourceTree = "<group>"; };
+		C5CAA857295A87330074669F /* SingleLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleLocationViewController.h; sourceTree = "<group>"; };
+		C5CAA859295A87330074669F /* MonitoringGeoFenceRegionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonitoringGeoFenceRegionViewController.m; sourceTree = "<group>"; };
+		C5CAA85A295A87330074669F /* MonitoringGeoFenceRegionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MonitoringGeoFenceRegionViewController.xib; sourceTree = "<group>"; };
+		C5CAA85B295A87330074669F /* MonitoringGeoFenceRegionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonitoringGeoFenceRegionViewController.h; sourceTree = "<group>"; };
+		C5CAA85D295A87330074669F /* MonitoringRegionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonitoringRegionViewController.h; sourceTree = "<group>"; };
+		C5CAA85E295A87330074669F /* MonitoringRegionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonitoringRegionViewController.m; sourceTree = "<group>"; };
+		C5CAA860295A87330074669F /* SingleLocaitonAloneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleLocaitonAloneViewController.h; sourceTree = "<group>"; };
+		C5CAA861295A87330074669F /* SingleLocaitonAloneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleLocaitonAloneViewController.m; sourceTree = "<group>"; };
+		C5CAA863295A87330074669F /* SerialLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SerialLocationViewController.h; sourceTree = "<group>"; };
+		C5CAA864295A87330074669F /* SerialLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SerialLocationViewController.m; sourceTree = "<group>"; };
+		C5CAA866295A87330074669F /* BackgroundLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundLocationViewController.h; sourceTree = "<group>"; };
+		C5CAA867295A87330074669F /* BackgroundLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundLocationViewController.m; sourceTree = "<group>"; };
+		C5CAA883295A895D0074669F /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		C5CAA884295A895D0074669F /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +128,9 @@
 		C516B59E2959C2E900FF3DD4 /* SuperFmSDK */ = {
 			isa = PBXGroup;
 			children = (
+				C5CAA884295A895D0074669F /* MainViewController.h */,
+				C5CAA883295A895D0074669F /* MainViewController.m */,
+				C5CAA851295A87330074669F /* Items */,
 				C516B5FD2959D51100FF3DD4 /* Privacy */,
 				C516B5FA2959D50000FF3DD4 /* Configuration */,
 				C516B59F2959C2E900FF3DD4 /* SuperFmSDK.h */,
@@ -137,6 +174,84 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C5CAA851295A87330074669F /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				C5CAA852295A87330074669F /* HeadinglLocation */,
+				C5CAA855295A87330074669F /* SingleLocation */,
+				C5CAA858295A87330074669F /* MonitoringGeoFenceRegion */,
+				C5CAA85C295A87330074669F /* MonitoringRegion */,
+				C5CAA85F295A87330074669F /* SingleLocaitonAlone */,
+				C5CAA862295A87330074669F /* SerialLocation */,
+				C5CAA865295A87330074669F /* BackgroundLocation */,
+			);
+			path = Items;
+			sourceTree = "<group>";
+		};
+		C5CAA852295A87330074669F /* HeadinglLocation */ = {
+			isa = PBXGroup;
+			children = (
+				C5CAA853295A87330074669F /* HeadinglLocationViewController.m */,
+				C5CAA854295A87330074669F /* HeadinglLocationViewController.h */,
+			);
+			path = HeadinglLocation;
+			sourceTree = "<group>";
+		};
+		C5CAA855295A87330074669F /* SingleLocation */ = {
+			isa = PBXGroup;
+			children = (
+				C5CAA856295A87330074669F /* SingleLocationViewController.m */,
+				C5CAA857295A87330074669F /* SingleLocationViewController.h */,
+			);
+			path = SingleLocation;
+			sourceTree = "<group>";
+		};
+		C5CAA858295A87330074669F /* MonitoringGeoFenceRegion */ = {
+			isa = PBXGroup;
+			children = (
+				C5CAA859295A87330074669F /* MonitoringGeoFenceRegionViewController.m */,
+				C5CAA85A295A87330074669F /* MonitoringGeoFenceRegionViewController.xib */,
+				C5CAA85B295A87330074669F /* MonitoringGeoFenceRegionViewController.h */,
+			);
+			path = MonitoringGeoFenceRegion;
+			sourceTree = "<group>";
+		};
+		C5CAA85C295A87330074669F /* MonitoringRegion */ = {
+			isa = PBXGroup;
+			children = (
+				C5CAA85D295A87330074669F /* MonitoringRegionViewController.h */,
+				C5CAA85E295A87330074669F /* MonitoringRegionViewController.m */,
+			);
+			path = MonitoringRegion;
+			sourceTree = "<group>";
+		};
+		C5CAA85F295A87330074669F /* SingleLocaitonAlone */ = {
+			isa = PBXGroup;
+			children = (
+				C5CAA860295A87330074669F /* SingleLocaitonAloneViewController.h */,
+				C5CAA861295A87330074669F /* SingleLocaitonAloneViewController.m */,
+			);
+			path = SingleLocaitonAlone;
+			sourceTree = "<group>";
+		};
+		C5CAA862295A87330074669F /* SerialLocation */ = {
+			isa = PBXGroup;
+			children = (
+				C5CAA863295A87330074669F /* SerialLocationViewController.h */,
+				C5CAA864295A87330074669F /* SerialLocationViewController.m */,
+			);
+			path = SerialLocation;
+			sourceTree = "<group>";
+		};
+		C5CAA865295A87330074669F /* BackgroundLocation */ = {
+			isa = PBXGroup;
+			children = (
+				C5CAA866295A87330074669F /* BackgroundLocationViewController.h */,
+				C5CAA867295A87330074669F /* BackgroundLocationViewController.m */,
+			);
+			path = BackgroundLocation;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -144,9 +259,17 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C516B5AD2959C2E900FF3DD4 /* SuperFmSDK.h in Headers */,
+				C5CAA869295A87330074669F /* HeadinglLocationViewController.h in Headers */,
+				C5CAA886295A895D0074669F /* MainViewController.h in Headers */,
 				C516B6012959D51100FF3DD4 /* AMapPrivacyUtility.h in Headers */,
 				C516B5FC2959D50000FF3DD4 /* APIKey.h in Headers */,
+				C516B5AD2959C2E900FF3DD4 /* SuperFmSDK.h in Headers */,
+				C5CAA875295A87330074669F /* BackgroundLocationViewController.h in Headers */,
+				C5CAA871295A87330074669F /* SingleLocaitonAloneViewController.h in Headers */,
+				C5CAA873295A87330074669F /* SerialLocationViewController.h in Headers */,
+				C5CAA86B295A87330074669F /* SingleLocationViewController.h in Headers */,
+				C5CAA86E295A87330074669F /* MonitoringGeoFenceRegionViewController.h in Headers */,
+				C5CAA86F295A87330074669F /* MonitoringRegionViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,6 +354,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5CAA86D295A87330074669F /* MonitoringGeoFenceRegionViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,8 +372,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5CAA872295A87330074669F /* SingleLocaitonAloneViewController.m in Sources */,
+				C5CAA876295A87330074669F /* BackgroundLocationViewController.m in Sources */,
+				C5CAA874295A87330074669F /* SerialLocationViewController.m in Sources */,
+				C5CAA885295A895D0074669F /* MainViewController.m in Sources */,
 				C516B6002959D51100FF3DD4 /* AMapPrivacyUtility.m in Sources */,
+				C5CAA86C295A87330074669F /* MonitoringGeoFenceRegionViewController.m in Sources */,
 				C516B5A12959C2E900FF3DD4 /* SuperFmSDK.docc in Sources */,
+				C5CAA868295A87330074669F /* HeadinglLocationViewController.m in Sources */,
+				C5CAA870295A87330074669F /* MonitoringRegionViewController.m in Sources */,
+				C5CAA86A295A87330074669F /* SingleLocationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

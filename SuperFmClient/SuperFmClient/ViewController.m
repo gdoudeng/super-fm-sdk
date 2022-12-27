@@ -5,6 +5,7 @@
 //  Created by dwb on 2022/12/26.
 //
 
+#import <SuperFmSDK/SuperFmSDK.h>
 #import "ViewController.h"
 
 @interface ViewController ()
@@ -31,7 +32,7 @@
 
 - (void)onButtonClick {
     NSLog(@"onButtonClick");
-//    [self.navigationController pushViewController:[FmSDKVC new] animated:YES];
+    [self.navigationController pushViewController:[MainViewController new] animated:YES];
 }
 
 @end
